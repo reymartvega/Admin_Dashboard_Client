@@ -4,9 +4,9 @@ import { useGetProductsQuery } from 'state/api';
 import Header from 'components/Header'
 const Products = () => {
   return (
-    <div>
-      
-    </div>
+    <Box>
+        <Header title="PRODUCTS" subtitle="See your list of products."/>
+    </Box>
   )
 }
 
