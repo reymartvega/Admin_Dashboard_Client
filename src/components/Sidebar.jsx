@@ -103,7 +103,7 @@ const Sidebar = ({user,drawerWidth,isSidebarOpen,setIsSidebarOpen,isNonMobile}) 
     },[pathname]);
 
 
-  return <Box component='Nav'>
+  return <Box component='nav'>
     {isSidebarOpen && (<Drawer 
     open={isSidebarOpen}
     onClose={()=>setIsSidebarOpen(false)}
